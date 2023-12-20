@@ -1,0 +1,17 @@
+scss
+  index.scss
+  abstracts
+    _mixin.scss
+    _variables.scss
+  base
+    _animations.scss
+    _base.scss
+    _typo.scss
+    _utilites.scss
+  components
+    _button.scss
+    _nav.scss
+  layout
+    _footer.scss
+    _header.scss
+    _main.scss
