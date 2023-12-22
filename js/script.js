@@ -53,6 +53,7 @@ $('.close').on('click', function (e) {
 //   };
 // }
 
+
 // function checkFadeIn() {
 //   const elements = document.querySelectorAll('.fade-in');
 //   elements.forEach((element) => {
@@ -64,12 +65,15 @@ $('.close').on('click', function (e) {
 //   });
 // }
 
+
 // window.addEventListener('scroll', debounce(checkFadeIn));
 
-// const buttons = document.querySelectorAll('.site .btn');
-// buttons.forEach((button) => {
-//   button.addEventListener('click', function() {
-//     const list = this.closest('.site').querySelector('.list');
-//     list.classList.toggle('show');
-//   });
-// });
+
+
+const buttons = document.querySelectorAll('.site .btn');
+buttons.forEach((button) => {
+  button.addEventListener('click', function() {
+    const list = this.closest('.site').querySelector('.list');
+    list.classList.toggle('show');
+  });
+});
