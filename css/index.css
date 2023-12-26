@@ -5,6 +5,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+.bx-pager-item {
+	opacity: 0;
+}
+.bx-wrapper {
+	border: 0;		
+	
 }
 
 html {

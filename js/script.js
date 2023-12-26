@@ -37,33 +37,33 @@ $('.close').on('click', function (e) {
 });
 
 
-// function debounce(func, wait = 10, immediate = true) {
-//   let timeout;
-//   return function () {
-//     const context = this,
-//       args = arguments;
-//     const later = function () {
-//       timeout = null;
-//       if (!immediate) func.apply(context, args);
-//     };
-//     const callNow = immediate && !timeout;
-//     clearTimeout(timeout);
-//     timeout = setTimeout(later, wait);
-//     if (callNow) func.apply(context, args);
-//   };
-// }
+function debounce(func, wait = 10, immediate = true) {
+  let timeout;
+  return function () {
+    const context = this,
+      args = arguments;
+    const later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    const callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+}
 
 
-// function checkFadeIn() {
-//   const elements = document.querySelectorAll('.fade-in');
-//   elements.forEach((element) => {
-//     const elementTop = element.getBoundingClientRect().top;
-//     const windowHeight = window.innerHeight;
-//     if (elementTop < windowHeight) {
-//       element.classList.add('show');
-//     }
-//   });
-// }
+function checkFadeIn() {
+  const elements = document.querySelectorAll('.fade-in');
+  elements.forEach((element) => {
+    const elementTop = element.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (elementTop < windowHeight) {
+      element.classList.add('show');
+    }
+  });
+}
 
 
 // window.addEventListener('scroll', debounce(checkFadeIn));
