@@ -1,17 +1,13 @@
-section {
-	& {
-		line-height: 1.6;
-	}
-
-	.bx-pager-item {
-		opacity: 0;
-	}
-
-	.bx-wrapper {
-		border: 0px;
-	}
+& {
+	line-height: 1.6;
 }
-
+.bx-pager-item {
+	opacity: 0;
+}
+.bx-wrapper {
+	border: 0;		
+	
+}
 .menu ul:first-child{
 	bottom: 0;
 }
