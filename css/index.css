@@ -158,7 +158,7 @@ body {
   width: 42rem;
   height: 11rem;
   border-radius: 15px;
-  background: #d3d3d3 url(/images/L:DERS_logo.png) no-repeat left top;
+  background: #d3d3d3 url(../images/L:DERS_logo.png) no-repeat left top;
   top: 10%;
   left: 21%;
 }
@@ -374,7 +374,7 @@ main .section_box_img {
   transform: translateZ(0);
 }
 main .box_img1 {
-  background: url(/images/section1_img1.png) no-repeat center;
+  background: url(../images/section1_img1.png) no-repeat center;
   background-size: cover;
   width: calc(33.3333333333% - 20px);
   float: left;
@@ -385,7 +385,7 @@ main .box_img1 {
   z-index: 0;
 }
 main .box_img2 {
-  background: url(/images/section1_img2.png) no-repeat center;
+  background: url(../images/section1_img2.png) no-repeat center;
   background-size: cover;
   width: calc(33.3333333333% - 20px);
   float: left;
@@ -396,7 +396,7 @@ main .box_img2 {
   z-index: 0;
 }
 main .box_img3 {
-  background: url(/images/section1_img3.png) no-repeat center;
+  background: url(../images/section1_img3.png) no-repeat center;
   background-size: cover;
   width: calc(33.3333333333% - 20px);
   float: left;
@@ -431,7 +431,7 @@ main .box_img3 a {
   z-index: 3;
 }
 main .img_bg {
-  background: url(/images/section1_img_bg.png) no-repeat center;
+  background: url(../images/section1_img_bg.png) no-repeat center;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -604,35 +604,35 @@ main .section_instagram ul li div {
   overflow: hidden;
 }
 main .section_instagram ul li .content1 {
-  background: url(/images/content1.jpeg) no-repeat center;
+  background: url(../images/content1.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content2 {
-  background: url(/images/content2.jpeg) no-repeat center;
+  background: url(../images/content2.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content3 {
-  background: url(/images/content3.jpeg) no-repeat center;
+  background: url(../images/content3.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content4 {
-  background: url(/images/content4.jpeg) no-repeat center;
+  background: url(../images/content4.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content5 {
-  background: url(/images/content5.jpeg) no-repeat center;
+  background: url(../images/content5.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content6 {
-  background: url(/images/content6.jpeg) no-repeat center;
+  background: url(../images/content6.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content7 {
-  background: url(/images/content7.jpeg) no-repeat center;
+  background: url(../images/content7.jpeg) no-repeat center;
   background-size: cover;
 }
 main .section_instagram ul li .content8 {
-  background: url(/images/content8.jpeg) no-repeat center;
+  background: url(../images/content8.jpeg) no-repeat center;
   background-size: cover;
 }
 
@@ -654,7 +654,7 @@ main .section_instagram ul li .content8 {
   width: 160px;
   height: 40px;
   margin: 0 0 30px;
-  background: url(/images/footer_logo.png) no-repeat center;
+  background: url(../images/footer_logo.png) no-repeat center;
 }
 .footer .footer_bigbox .footer_left .footer_box {
   width: 100%;
