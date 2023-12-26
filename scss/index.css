@@ -48,6 +48,7 @@ h2 {
   text-transform: uppercase;
   background: linear-gradient(90deg, #285a91, #1f9cfd);
   -webkit-background-clip: text;
+  background-clip: text;
   background-color: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.5s;
