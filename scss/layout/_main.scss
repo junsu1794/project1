@@ -4,10 +4,6 @@
 }
 */
 
-/*
-@import "./variable";
-*/
-
 .bx-pager-item {
 	opacity: 0;
 }
@@ -253,7 +249,11 @@ main {
 
 		.section_box {
 			max-width: 1620px;
+			width: calc(100% - 40px);
+			margin: 0 auto;
+			overflow: hidden;
 		}
+		
 
 	}
 
