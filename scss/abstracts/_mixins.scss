@@ -1,16 +1,47 @@
-// @mixin mq($screen-width) {
-// 	@if $screen-width == 'lg' {
-// 		@media screen and (min-width: 900px) and (max-width: 1400px) {
-// 			@content; //전달하는 내용으로 실행
-// 		}
-// 	} @else if $screen-width == 'md' {
-// 		@media screen and (min-width: 701px) and (max-width: 899px) {
-// 			@content;
-// 		}
-// 	} @else if $screen-width == 'sm' {
-// 		@media screen and (max-width: 700px) {
-// 			@content;
-// 		}
-// 	}
-// }
+/*
+@import url(./_varables.scss);
 
+
+@mixin mobile {
+    @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-tablet - 1px}) {
+      @content;
+    }
+  }
+@mixin tablet {
+    @media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-laptop - 1px}) {
+        .section_bigbox{
+            max-width: 600px;
+            margin: 0 auto;
+
+
+        }
+    }
+  }
+  @mixin laptop {
+    @media (min-width: #{$breakpoint-laptop}) and (max-width: #{$breakpoint-desktop  - 1px}) {
+        .section2{
+            padding: 120px 0 60px;
+            .link{
+                width: 100%;
+            }    
+            .link.one{
+                background: url(../images/bg_ldsers_moblie1.png) no-repeat center;
+                background-size: cover;
+                .section2_text{
+                    margin-bottom: 2rem;
+                    div{
+                        font-size: 1.5rem
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        line-height: 2.4rem;
+                        height: 4.8rem;
+                        word-break: keep-all;
+                    }
+                }
+            }
+        }
+        
+    }
+  }
+*/
