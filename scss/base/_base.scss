@@ -1,7 +1,5 @@
-//나눔고딕 , Lato
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Nanum+Gothic:wght@400;700;800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+//나눔스퀘어
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 
 //
 * {
@@ -13,7 +11,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'NanumSquare', sans-serif;
 }
 .bx-pager-item {
 	opacity: 0;

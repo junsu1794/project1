@@ -1,27 +1,36 @@
+/*
 & {
 	line-height: 1.6;
 }
+*/
+
 .bx-pager-item {
 	opacity: 0;
 }
+
 .bx-wrapper {
-	border: 0;		
-	
+	border: 0;
+
 }
-.menu ul:first-child{
+
+.menu ul:first-child {
 	bottom: 0;
 }
-.menu ul:last-child{
+
+.menu ul:last-child {
 	top: 0;
 }
-.menu{
+
+.menu {
 	position: fixed;
 	top: 50%;
 	right: 0;
 	transform: translateY(-50%);
 	z-index: 999;
 	transition: 0.5s;
-	ul{
+
+
+	ul {
 		background: #004a53;
 		margin-bottom: 10px;
 		padding: 16px;
@@ -30,48 +39,55 @@
 		border-bottom-left-radius: 5px;
 		position: relative;
 		transition: 0.5s;
-		.menu_title{
+
+		.menu_title {
 			color: #fff;
 			font-size: 1.8rem;
 			margin-bottom: 20px;
 			font-weight: 300;
 		}
-		div{
+
+		div {
 			color: #fff;
 			font-size: 1.6rem;
 			font-weight: 600;
 		}
-		a{
+
+		a {
 			position: absolute;
 			width: 100%;
 			height: 100%;
 			top: 0;
 			left: 0;
 		}
-		li{
+
+		li {
 			list-style: none;
 		}
 	}
 }
-.kakao{
+
+.kakao {
 	position: fixed;
 	bottom: 30px;
 	right: 20px;
 	z-index: 9999;
-	img{
+
+	img {
 		width: 105px
 	}
 }
+
 .fade-in {
 	opacity: 0;
 	transform: translateY(20px);
-  }
-  .fade-in.show {
+}
+
+.fade-in.show {
 	opacity: 1;
 	transform: translateY(0);
 	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-  }
-  
+}
 
 main {
 	& {
@@ -97,19 +113,24 @@ main {
 
 	}
 
-	.section_box {
-		max-width: 1600px;
+	.section_bigbox{
+		max-width: 1200px;
 		width: calc(100% - 40px);
 		margin: 0 auto;
 		overflow: hidden;
 	}
-
-	.section_box_img {
-		display: flex;
+	.section_box {
 		opacity: 1;
 		transform: translateZ(0);
 	}
 
+	.link .one{
+		background: url(../images/bg_ldsers.png) no-repeat center;
+		background-size: cover;
+	}
+
+
+	/*
 	.box_img1 {
 		background: url(../images/section1_img1.png) no-repeat center;
 		background-size: cover;
@@ -213,7 +234,7 @@ main {
 			z-index: 2;
 		}
 	}
-
+*/
 	.title {
 		text-align: center;
 		overflow: hidden;
@@ -231,7 +252,6 @@ main {
 			}
 		}
 	}
-
 	// slider
 	.slider {
 		margin-bottom: 5rem;
@@ -423,4 +443,5 @@ main {
 
 	}
 }
+
 
