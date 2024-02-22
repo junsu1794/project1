@@ -77,3 +77,9 @@ buttons.forEach((button) => {
     list.classList.toggle('show');
   });
 });
+
+
+function startVideo() {
+    var video = document.getElementById('main_video');
+    video.play();
+}
